@@ -1,0 +1,27 @@
+-Requisitos Funcionales del Sistema de Gestión de Cursos Saludables : 
+	1.	Gestión de personas:
+El sistema debe permitir registrar los datos de estudiantes e instructores, incluyendo identificación, nombre y correo electrónico. En el caso de los instructores, también se debe registrar su especialidad.
+
+	2.	Creación de cursos:
+El sistema debe permitir crear diferentes tipos de cursos (por ejemplo, Curso de Autoconfianza y Curso de Alimentación Saludable) con su respectivo código, título e instructor asignado.
+
+	3.	Administración de sesiones:
+Cada curso debe permitir el registro de varias sesiones indicando su fecha y tema. Estas sesiones estarán compuestas dentro del curso y desaparecerán si el curso se elimina.
+
+	4.	Inscripción de estudiantes:
+El sistema debe permitir inscribir estudiantes en un curso determinado, manteniendo el registro de sus asistencias y nota final asociada a esa inscripción.
+
+	5.	Registro y cálculo de notas:
+El sistema debe permitir agregar varias notas a cada estudiante, calcular su promedio, y determinar la nota final aplicando diferentes criterios según el tipo de curso (bonificación o penalización).
+
+	6.	Control de asistencia:
+El sistema debe permitir marcar la asistencia de los estudiantes a las sesiones de un curso y usar dicha información en el cálculo de su nota final.
+
+	7.	Visualización de resultados:
+El sistema debe mostrar en pantalla la información de cada estudiante inscrito, su promedio y su nota final, junto con los datos generales del curso y del instructor.
+
+	8.	Gestión de archivos:
+El sistema debe guardar las notas finales en un archivo de texto y permitir su posterior lectura para consultar el registro de resultados.
+
+	9.	Manejo de recursos (extensión opcional):
+El sistema puede incluir una funcionalidad adicional mediante TarjetaSpark, que implemente la interfaz AccesoRecursos para otorgar acceso a recursos básicos o premium dependiendo del tipo de curso y el estado de la tarjeta.
